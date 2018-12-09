@@ -1160,7 +1160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55a160418113a6d4fa1adabe14114c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deltaPos: {x: 5, y: 5, z: -9}
+  offsetPos: {x: 5, y: 5, z: -9}
   balls:
   - {fileID: 609544109}
   - {fileID: 2011662927}

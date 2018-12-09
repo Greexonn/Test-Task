@@ -12,9 +12,13 @@ public class Coordinates
 	{
 		int _lastID = x.Length - 1;
 		if (coordID <= _lastID)
-			return new Vector3 (x[coordID], y[coordID], z[coordID]);
+			return new Vector3 (x[coordID],
+								y[coordID],
+								z[coordID]);
 		else
-			return new Vector3 (x[_lastID], y[_lastID], z[_lastID]);
+			return new Vector3 (x[_lastID],
+								y[_lastID],
+								z[_lastID]);
 	}
 
 	public int GetSize () 

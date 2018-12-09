@@ -11,9 +11,11 @@ public class JSONLoader : MonoBehaviour
 
 	public string ReadJSON(int fileID)
 	{
-		_path = Application.streamingAssetsPath + "/" + files[fileID];
-		string contentJSON = File.ReadAllText(_path);
+		_path = Application.streamingAssetsPath 
+				+ "/" 
+				+ files[fileID];
+		string _contentJSON = File.ReadAllText(_path);
 
-		return contentJSON;
+		return _contentJSON;
 	}
 }
